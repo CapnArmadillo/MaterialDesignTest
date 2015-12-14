@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/icn_add">
+
+    <target
+        android:animation="@anim/path_morph_check_top"
+        android:name="top_line" />
+    <target
+        android:animation="@anim/path_morph_check_right"
+        android:name="right_line" />
+    <target
+        android:animation="@anim/fade_out_left"
+        android:name="left_line" />
+    <target
+        android:animation="@anim/fade_out_bottom"
+        android:name="bottom_line" />
+
+</animated-vector>
